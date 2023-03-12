@@ -1,0 +1,323 @@
+.back-to-home {
+    display: flex;
+    align-items: center;
+    width: 260px;
+    height: 72px;
+    margin-left: -4px;
+    border: none;
+    background-color: transparent;
+
+}
+
+.back-to-home-div {
+    width: 208px;
+    height: 72px;
+    background-color: #151515;
+}
+
+.back-to-home-div h3 {
+    text-transform: uppercase;
+    color: white;
+    margin-top: 24px;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+}
+
+.back-to-home-img {
+    width: 56px;
+    height: 72px;
+    background-color: #D5966C;
+    align-items: center;
+}
+
+.back-to-home-img img {
+    margin-top: 24px;
+}
+
+.back-to-home:hover .back-to-home-div {
+    background-color: #D5966C;
+    cursor: pointer;
+}
+
+.back-to-home:hover .back-to-home-img {
+    background-color: #151515;
+    cursor: pointer;
+}
+
+.section-one {
+    width: 375px;
+    height: 550px;
+    margin: auto;
+    background-image: url("./assets/mobile/image-map.png");
+}
+
+.section-two {
+
+    height: 493px;
+    background-color: #151515;
+}
+
+.section-two-div {
+    display: flex;
+    flex-direction: column;
+    width: 343px;
+    margin: auto;
+}
+
+.our-location-title {
+    height: 45px;
+    padding-top: 48px;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.street {
+    height: 32px;
+    margin-top: 48px;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #D5966C;
+
+}
+
+.address {
+    height: 84px;
+    margin-top: 20px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.address-visiting-hours {
+    height: 140px;
+    margin-top: 20px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+}
+
+.section-three {
+    height: 336px;
+    background-color: #D5966C;
+
+}
+
+.section-three-div {
+    display: flex;
+    flex-direction: column;
+    width: 311px;
+    margin: auto;
+}
+
+.section-three-div img {
+    width: 111px;
+    height: 40px;
+    margin-top: 48px;
+}
+
+.section-three-div p {
+    height: 104px;
+    margin-top: 38px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #151515;
+}
+
+.social-media {
+    display: flex;
+    margin-top: 38px;
+    gap: 20px;
+}
+
+.social-media img {
+    color: black;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 48px;
+}
+
+svg {
+    color: black;
+}
+
+/* ------------------TABLET */
+@media screen and (min-width: 768px) {
+    .section-one {
+        width: 768px;
+        background-image: url(./assets/tablet/image-map.png);
+
+    }
+
+    .back-to-home {
+        margin-left: 39px;
+    }
+
+    .section-two-div {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .our-location-title {
+        width: 223px;
+        height: 100px;
+        padding-top: 88px;
+        margin-left: 39px;
+    }
+
+    .address-full {
+        padding-top: 38px;
+        width: 398px;
+        margin-right: 40px;
+    }
+
+    .section-three {
+        height: 216px;
+    }
+
+    .section-three-div {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 56px;
+    }
+
+    .section-three-div img {
+        margin-top: 0;
+        margin-left: 39px;
+
+    }
+
+    .section-three-p {
+        /* width : 281 + 65  */
+        width: 346px;
+
+    }
+
+    .section-three-p p {
+        width: 281px;
+        height: 104px;
+        /* margin-left: 65px; */
+        margin-top: 0;
+
+    }
+
+    .social-media {
+        margin-top: 0;
+        margin-right: 40px;
+
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .section-one {
+        width: 1440px;
+        background-image: url(./assets/desktop/image-map.png);
+
+    }
+
+    .back-to-home {
+        margin-left: 156px;
+    }
+
+    .our-location-title {
+        width: 350px;
+        height: 140px;
+        margin-left: 165px;
+        font-size: 70px;
+        line-height: 70px;
+        padding-top: 104px;
+    }
+
+    .address-full {
+
+        width: 398px;
+        margin-right: 40px;
+    }
+
+    .street {
+        height: 36px;
+        margin-top: 70px;
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .address {
+        height: 96px;
+        margin-top: 24px;
+
+        font-size: 22px;
+        line-height: 32px;
+
+    }
+
+    .address-visiting-hours {
+        width: 540px;
+        height: 128px;
+        margin-top: 20px;
+        margin-top: 32px;
+        font-size: 22px;
+        line-height: 32px;
+
+
+    }
+
+    .section-three {
+        height: 244px;
+    }
+
+    .section-three-div {
+        padding-top: 80px;
+    }
+
+    .section-three-div img {
+        width: 160px;
+        height: 58px;
+        margin-left: 165px;
+
+    }
+
+    .section-three-p {
+        /* width : 430 + 140  */
+        width: 570px;
+
+    }
+
+    .section-three-p p {
+        width: 430px;
+        height: 104px;
+        /* margin-left: 65px; */
+        margin-top: 0;
+        font-size: 18px;
+        line-height: 28px;
+
+    }
+
+    .social-media {
+        margin-top: 0;
+        margin-right: 165px;
+    }
+}
